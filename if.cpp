@@ -4,8 +4,7 @@ using namespace std;
 int main(){
 
     int nilai;
-
-    cout<<"Masukan Nilai"<<endl;
+    cout<<"Masukan Nilai Kamu"<<endl;
     cin>>nilai;
     
     if (nilai >= 80) {
