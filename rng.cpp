@@ -1,3 +1,8 @@
+/*
+Muhammad Fahmi Algifari
+Game Tebak Angka RNG
+*/
+
 #include <iostream>
 #include <random>
 

@@ -1,3 +1,8 @@
+/*
+Muhammad Fahmi Algifari
+Penggunaan "if" pada penilaian tugas
+*/
+
 #include <iostream>
 using namespace std;
 
