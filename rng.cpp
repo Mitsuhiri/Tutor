@@ -18,32 +18,33 @@ int main(){
     int angka; 
     char main;
 
-    cout<<"============================";
-    cout<<"GAME TEBAK ANGKA";
-    cout<<"============================\n\n";
-    cout<<"Masukan Angka Kamu\n";
+    cout << "GAME TEBAK ANGKA\n";
 
     while (angka != rng){
 
+        cout<<"Masukan Angka Kamu\t: ";
         cin>>angka;
 
-         if(angka == rng){
+        if(angka == rng){
+
             char hadiah;
-            cout<<"=======================";
-            cout<<"Selamat Kamu MENANG";
-            cout<<"=======================\n";
-            cout<<"Apakah kamu Ingin menerima Hadiahnya?(Y/N)\n";
+
+            cout<<"+====================================+\n";
+            cout<<"\t!!SELAMAT KAMU MENANG!!\n";
+            cout<<"+====================================+\n";
+            cout<<"Apakah kamu Ingin menerima Hadiahnya?(y/n)\n";
             cin>>hadiah;
-            if(hadiah = 'Y'){
+            
+            if(hadiah == 'y'){
                 cout<<"Kamu dapat cium dari Kang Azrel";
-            } else if(hadiah = 'N'){
+            } else if(hadiah == 'n'){
                 cout<<"Sombong bet lu";
             } 
-            } else if(angka > rng){
-                cout<<"Lebih Kecil\n";
-            } else if(angka < rng){
-                cout<<"Lebih besar\n";
+        } else if(angka > rng){
+            cout<<"Lebih Kecil\n";
+        } else if(angka < rng){
+            cout<<"Lebih besar\n";
         }
-}
+    }
     return 0;
 }
